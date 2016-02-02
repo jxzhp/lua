@@ -6,8 +6,7 @@ function fc(n)
 	i = 2
 	while i <= n
 		do
-			n1 = n0 + n1
-			n0 = n1 - n0
+			n0, n1 = n1, n0 + n1
 			i = i + 1
 		end
 	return n1
